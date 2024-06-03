@@ -33,16 +33,16 @@ class Mage extends Character {
 }
 class littleMonster extends Character {
   constructor() {
-    super('littleMonster');
+    super('Little Monster');
     this.life = 70;
     this.maxLife = this.life;
     this.attack = 7;
     this.defense = 4;
   }
 }
-class Sol extends Character {
+class bigMonster extends Character {
   constructor() {
-    super('Sol');
+    super('Big Monster');
     this.life = 160;
     this.maxLife = this.life;
     this.attack = 18;
